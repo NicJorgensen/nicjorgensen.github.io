@@ -42,8 +42,11 @@ div {
   font-size: 85px;
   font-family: lobster;
   color: rgba(255, 255, 255, 0.8);
-  text-shadow: 6px 2px 8px rgba(150, 150, 150, 0.9);
+  text-shadow: 3px 2px 2px #969696;
   margin: 2rem;
+  background-color: rgba(150, 150, 150, 0.5);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .me {
@@ -56,26 +59,27 @@ div {
 .link {
   color: rgba(255, 255, 255, 0.8);
   padding: 1rem;
-  text-shadow: 6px 2px 8px rgba(150, 150, 150, 0.9);
+  text-shadow: 3px 2px 2px #969696;
 }
 
 h3 {
   font-family: lobster;
   color: #102c32;
-  text-shadow: 6px 2px 8px rgba(150, 150, 150, 0.9);
+  text-shadow: 3px 2px 2px #969696;
 }
 
 h4 {
   font-family: Slabo27px;
   color: rgba(255, 255, 255, 0.8);
-  text-shadow: 6px 2px 8px rgba(150, 150, 150, 0.9);
+  text-shadow: 3px 2px 2px #969696;
   margin: 2rem;
+  text-align: center;
 }
 
 h5 {
   font-family: Slabo27px;
   color: rgba(255, 255, 255, 0.8);
-  text-shadow: 6px 2px 8px rgba(150, 150, 150, 0.9);
+  text-shadow: 3px 2px 2px #969696;
   text-align: center;
 }
 
@@ -112,6 +116,8 @@ h5 {
 
 .quote {
   color: #102c32;
+  background-color: rgba(150, 150, 150, 0.5);
+  border-radius: 10px;
 }
 
 .card {
