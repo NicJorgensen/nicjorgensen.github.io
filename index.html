@@ -19,15 +19,21 @@
         <div class="row">
             <div class="col-sm-12 navbar">
                 <button type="button" class="btn btn-link link">
-                    <i class="fas fa-user"></i> About Me</button>
+                    <i class="fas fa-user"></i>
+                    <a href="#about_me" class="a">About Me</a></button>
                 <button type="button" class="btn btn-link link">
-                    <i class="fas fa-graduation-cap"></i> Education</button>
+                    <i class="fas fa-graduation-cap"></i>
+                    <a href="#education" class="a">Education</a></button>
                 <button type="button" class="btn btn-link link">
-                    <i class="fas fa-lightbulb"></i> Experience & Skills</button>
+                    <i class="fas fa-lightbulb"></i>
+                    <a href="#experience" class="a">Experience & Skills</a></button>
                 <button type="button" class="btn btn-link link">
-                    <i class="fas fa-folder-open"></i> Portfolio</button>
+                    <i class="fas fa-folder-open"></i>
+                    <a href="#portfolio" class="a">Portfolio</a></button>
                 <button type="button" class="btn btn-link link">
-                    <i class="fas fa-envelope"></i> Contact Me</button>
+                    <i class="fas fa-envelope"></i>
+                    <a href="#contact_me" class="a">Contact Me</a>
+                </button>
             </div>
         </div>
         <div class="row flex">
@@ -37,7 +43,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row"><a name="about_me"></a>
             <div class="col-sm-12">
                 <div class="row flex">
                     <div class="col-sm-6 bg-2">
@@ -70,7 +76,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row"><a name="education"></a>
             <div class="col-sm-12">
                 <div class="row flex">
                     <div class="col-sm-3 bg-2">
@@ -116,14 +122,14 @@
             </div>
         </div> -->
 
-        <div class="row">
+        <div class="row"><a name="experience"></a>
             <div class="col-sm-12">
                 <div class="row flex">
                     <div class="col-sm-3 bg-2">
                         <h3>Skills</h3>
                     </div>
                     <div class="col-sm-1"></div>
-                    <div class="col-sm-6 bg-2">
+                    <div class="col-sm-6 bg-2 flex">
                         <ul>
                             <li>Front-End/Back-End Web Development</li>
                             <li>Web Apps</li>
@@ -132,6 +138,8 @@
                             <li>CSS</li>
                             <li>Vue.js</li>
                             <li>C#</li>
+                        </ul>
+                        <ul>
                             <li>Git</li>
                             <li>Node.js</li>
                             <li>MongoDB</li>
@@ -144,7 +152,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row"><a name="portfolio"></a>
             <div class="col-sm-12">
                 <div class="row flex">
                     <div class="col-sm-10 bg-2 text-center inside-img3">
@@ -162,8 +170,63 @@
                             <img class="card-img-top" src="img/alice_in_slapland_screenshot.jpg" alt="Alice in Slapland">
                             <div class="card-body">
                                 <h5 class="card-title">"Alice in Slapland"</h5>
-                                <p class="card-text">A simple JavaScript game to showcase design, lighthearted spirit and functionality. </p>
+                                <p class="card-text">A simple JavaScript game to showcase design and functionality. </p>
                                 <a href="https://nicjorgensen.github.io/SlapGame/" class="btn btn-info">Check it Out</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 text-center flex">
+                        <div class="card" style="width: 30rem;">
+                            <img class="card-img-top" src="img/NASA.jpg" alt="NASA">
+                            <div class="card-body">
+                                <h5 class="card-title">"A Glimpse at the Universe"</h5>
+                                <p class="card-text">Take a look at NASA's Photo of the Day. This app uses an API from NASA.</p>
+                                <a href="https://nicjorgensen.github.io/NASA/" class="btn btn-info">Check it Out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row flex github">
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-6 text-center flex">
+                        <div class="card" style="width: 30rem;">
+                            <img class="card-img-top" src="img/Inspire.JPG" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">"Inspire"</h5>
+                                <p class="card-text">A homepage app that integrates random photos & quotes, current weather in your area, and
+                                    a completely interactive to-do list.</p>
+                                <a href="https://nicjorgensen.github.io/inspire-ext/" class="btn btn-info">Check it Out</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 text-center flex">
+                        <div class="card" style="width: 30rem;">
+                            <img class="card-img-top" src="img/Omeganize.JPG" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">"Omeganize"</h5>
+                                <p class="card-text">An organizational app where users can login, add friends and collaborate on projects.</p>
+                                <a href="http://omeganize.herokuapp.com/#/login" class="btn btn-info">Check it Out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row flex github">
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-6 text-center flex">
+                        <div class="card" style="width: 30rem;">
+                            <img class="card-img-top" src="img/SoundSlate.JPG" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">"Sound Slate"</h5>
+                                <p class="card-text">This allows you to search iTunes for songs (by artist). You can browse and listen to samples.</p>
+                                <a href="https://nicjorgensen.github.io/Music-Is-Fun/" class="btn btn-info">Check it Out</a>
                             </div>
                         </div>
                     </div>
@@ -176,94 +239,41 @@
                                 <a href="#" class="btn btn-info">Check it Out</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
 
-        <div class="row flex">
-            <div class="col-sm-10">
-                <div class="row">
-                    <div class="col-sm-6 text-center flex">
-                        <div class="card" style="width: 30rem;">
-                            <img class="card-img-top" src="https://via.placeholder.com/280x200" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Project Name</h5>
-                                <p class="card-text">Project description: Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-info">Check it Out</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 text-center flex">
-                        <div class="card" style="width: 30rem;">
-                            <img class="card-img-top" src="https://via.placeholder.com/280x200" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Project Name</h5>
-                                <p class="card-text">Project description: Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-info">Check it Out</a>
-                            </div>
+        <div class="row">
+            <a name="contact_me"></a>
+            <div class="col-sm-12">
+                <div class="row flex">
+                    <div class="col-sm-10 bg-2 text-center inside-img4">
+                        <h3>Contact Me</h3>
+                        <div class="row flex2">
+                            <h4>
+                                <i class="fas fa-envelope no-shadow"></i> email: nicjorgi@gmail.com</h4>
+                            <h4>
+                                <i class="fab fa-github no-shadow"></i> GitHub:
+                                <a href="github.com/NicJorgensen" class="github">/NicJorgensen</a>
+                            </h4>
+                            <h4>
+                                <i class="fas fa-newspaper no-shadow"></i>
+                                <a href="https://docs.google.com/document/d/1IHKiZvje34_gqR2X78zZawqrTKAWZXGXmso5AQf_36M/edit?usp=sharing" class="github">
+                                    View Paper Resume</a>
+                            </h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row flex">
-            <div class="col-sm-10">
-                <div class="row">
-                    <div class="col-sm-6 text-center flex">
-                        <div class="card" style="width: 30rem;">
-                            <img class="card-img-top" src="https://via.placeholder.com/280x200" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Project Name</h5>
-                                <p class="card-text">Project description: Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-info">Check it Out</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 text-center flex">
-                        <div class="card" style="width: 30rem;">
-                            <img class="card-img-top" src="https://via.placeholder.com/280x200" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Project Name</h5>
-                                <p class="card-text">Project description: Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-info">Check it Out</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="row flex">
-                                <div class="col-sm-12 bg-2 text-center inside-img4">
-                                    <h3>Contact Me</h3>
-                                    <div class="row flex2">
-                                        <h4>
-                                            <i class="fas fa-envelope no-shadow"></i> email: nicjorgi@gmail.com</h4>
-                                        <h4>
-                                            <i class="fab fa-github no-shadow"></i> GitHub:
-                                            <a href="github.com/NicJorgensen" class="github">/NicJorgensen</a>
-                                        </h4>
-                                        <h4>
-                                            <i class="fas fa-newspaper no-shadow"></i>
-                                            <a href="https://docs.google.com/document/d/1IHKiZvje34_gqR2X78zZawqrTKAWZXGXmso5AQf_36M/edit?usp=sharing"
-                                                class="github"> View Paper Resume</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12 footer">
-                        <img src="img/logo.png" alt="logo" class="logo">
-                    </div>
-                </div>
+    <div class="row">
+        <div class="col-sm-12 footer">
+            <img src="img/logo.png" alt="logo" class="logo">
+        </div>
+    </div>
 </body>
 
 </html>
