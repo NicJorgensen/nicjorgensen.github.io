@@ -27,6 +27,11 @@
   align-items: center;
 }
 
+.flex3 {
+  display: flex;
+  align-items: center;
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -95,13 +100,8 @@ h6 {
   color: white;
 }
 
-ul {
-  margin: 10px;
-}
-
 li {
   color: white;
-  font-size: 125%;
   font-weight: 600;
   text-shadow: 3px 2px 2px #969696;
 }
@@ -164,7 +164,7 @@ li {
 }
 
 .logos {
-  height: 7vh;
+  height: 11vh;
   margin: 3px;
 }
 
