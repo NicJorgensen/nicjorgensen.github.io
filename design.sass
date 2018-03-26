@@ -1,6 +1,9 @@
-$white: rgba(255, 255, 255, 0.8)
+$white: rgba(255, 255, 255, 1)
 $shadow: 3px 2px 2px rgb(150, 150, 150)
 $lightblue: rgb(230, 247, 255)
+
+.title
+    font-size: 100%
 
 div
     outline: 0 solid red
@@ -19,7 +22,8 @@ div
 .flex2
     display: flex
     justify-content: space-around
-    align-items: center      
+    align-items: center     
+
 
 .navbar
     display: flex 
@@ -74,6 +78,16 @@ h5
     color: $white
     text-shadow: $shadow
     text-align: center
+
+h6 
+    color: $white
+
+ul 
+    margin: 10px
+
+li
+    color: $white
+    font-size: 125%
 
 .inside-img1
     background-image: url("img/waves-crash-min.jpg")
@@ -133,3 +147,9 @@ h5
 
 .container-fluid
     padding-right: 0    
+    
+.flexy
+    display: flex
+    flex-direction: column
+    align-items: baseline
+    justify-content: center 
