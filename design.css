@@ -103,6 +103,7 @@ li {
   color: white;
   font-size: 125%;
   font-weight: 600;
+  text-shadow: 3px 2px 2px #969696;
 }
 
 .inside-img1 {
@@ -162,6 +163,17 @@ li {
   margin: 1rem;
 }
 
+.logos {
+  height: 7vh;
+  margin: 3px;
+}
+
+.logos2 {
+  width: 50%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
 .m-b-1 {
   margin-bottom: 1rem;
 }
@@ -178,5 +190,12 @@ li {
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  justify-content: center;
+}
+
+.flexy2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
