@@ -182,6 +182,10 @@ li {
   text-shadow: none;
 }
 
+.shadow {
+  text-shadow: 3px 2px 2px #969696;
+}
+
 .container-fluid {
   padding-right: 0;
 }
